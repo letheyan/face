@@ -1,0 +1,7 @@
+Begin Time:2021-04-25T14:03:51.167
+[2021-04-25T14:03:51.167 info Netsdk:48184 14856:1664 dhnetsdk.cpp:190]Enter CLIENT_SetAutoReconnect:[cbAutoConnect=00000240BF880050, dwUser=0000000000000000].
+[2021-04-25T14:03:51.167 info Netsdk:48184 14856:1664 dhnetsdk.cpp:192]Leave CLIENT_SetAutoReconnect.
+[2021-04-25T14:03:51.167 info Netsdk:48184 14856:1664 dhnetsdk.cpp:210]Enter CLIENT_SetConnectTime:[nWaitTime=5000, nTryTimes=1].
+[2021-04-25T14:03:51.167 info Netsdk:48184 14856:1664 dhnetsdk.cpp:223]Leave CLIENT_SetConnectTime.
+[2021-04-25T14:03:51.168 info Netsdk:48184 14856:1664 dhnetsdk.cpp:234]Enter CLIENT_SetNetworkParam:[nWaittime=0, nConnectTime=10000, nConnectTryNum=0, nSubConnectSpaceTime=0, nGetDevInfoTime=0, nConnectBufSize=0, nGetConnInfoTime=3000, nSearchRecordTime=0, nsubDisconnetTime=0, byNetType=0, byPlaybackBufSize=0, bDetectDisconnTime=0, bKeepLifeInterval=0, nPicBufSize=0].
+[2021-04-25T14:03:51.168 info Netsdk:48184 14856:1664 dhnetsdk.cpp:249]Leave CLIENT_SetNetworkParam.

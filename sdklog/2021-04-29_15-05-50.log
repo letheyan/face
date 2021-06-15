@@ -1,0 +1,36 @@
+Begin Time:2021-04-29T15:05:50.236
+[2021-04-29T15:05:50.236 info Netsdk:48184 3100:6232 AVNetSDKMgr.cpp:378]Load avnetsdk library dynamically
+[2021-04-29T15:05:50.240 info Netsdk:48184 3100:6232 AVNetSDKMgr.cpp:402]avnetsdk module handle: 000002F1B35A0000
+
+[2021-04-29T15:05:50.240 info Netsdk:48184 3100:6232 AVNetSDKMgr.cpp:734]Load configsdk dynamically
+[2021-04-29T15:05:50.243 info Netsdk:48184 3100:6232 dhnetsdk.cpp:190]Enter CLIENT_SetAutoReconnect:[cbAutoConnect=000002F1B1C10050, dwUser=0000000000000000].
+[2021-04-29T15:05:50.243 info Netsdk:48184 3100:6232 dhnetsdk.cpp:192]Leave CLIENT_SetAutoReconnect.
+[2021-04-29T15:05:50.244 info Netsdk:48184 3100:6232 dhnetsdk.cpp:210]Enter CLIENT_SetConnectTime:[nWaitTime=5000, nTryTimes=1].
+[2021-04-29T15:05:50.244 info Netsdk:48184 3100:6232 dhnetsdk.cpp:223]Leave CLIENT_SetConnectTime.
+[2021-04-29T15:05:50.244 info Netsdk:48184 3100:6232 dhnetsdk.cpp:234]Enter CLIENT_SetNetworkParam:[nWaittime=0, nConnectTime=10000, nConnectTryNum=0, nSubConnectSpaceTime=0, nGetDevInfoTime=0, nConnectBufSize=0, nGetConnInfoTime=3000, nSearchRecordTime=0, nsubDisconnetTime=0, byNetType=0, byPlaybackBufSize=0, bDetectDisconnTime=0, bKeepLifeInterval=0, nPicBufSize=0].
+[2021-04-29T15:05:50.244 info Netsdk:48184 3100:6232 dhnetsdk.cpp:249]Leave CLIENT_SetNetworkParam.
+[2021-04-29T15:05:53.384 info Netsdk:48184 3100:6232 dhnetsdk.cpp:809]Enter CLIENT_LoginWithHighLevelSecurity. pstInParam:000002F1B243FEF0, pstOutParam:000002F1B1FE2A60.
+[2021-04-29T15:05:53.384 info Netsdk:48184 3100:6232 dhnetsdk.cpp:825]IP:169.254.238.113, port:37777, SpeCap:0, CapParam:0000000000000000.
+[2021-04-29T15:05:53.537 info Netsdk:48184 3100:6232 dhnetsdk.cpp:871]Leave CLIENT_LoginWithHighLevelSecurity. error:0, login ID:000002F1B1BB9910.
+[2021-04-29T15:05:55.264 info Netsdk:48184 3100:6232 dhnetsdk.cpp:9492]Enter CLIENT_RealLoadPictureEx. lLoginID:000002F1B1BB9910, nChannelID:0, dwAlarmType:1, bNeedPicFile:1, cbAnalyzerData:000002F1B1C10090, dwUser:0000000000000000, Reserved:0000000000000000.
+[2021-04-29T15:05:55.265 info Netsdk:48184 3100:6232 Utils.cpp:4809]mutil NIC client
+[2021-04-29T15:05:55.278 info Netsdk:48184 3100:6232 DevConfigEx.cpp:10179]IN SetupSession PORT=0 and PORT: 37777
+[2021-04-29T15:05:55.314 info Netsdk:48184 3100:6232 dhnetsdk.cpp:9511]Leave CLIENT_RealLoadPictureEx. ret:-1233583360.
+[2021-04-29T15:14:48.699 info Netsdk:48184 3100:6560 dhnetsdk.cpp:15875]Enter CLIENT_FindRecord. [lLoginID=000002F1B1BB9910, pInParam=000002F1B232A270, pOutParam=000002F1B232A530, waittime=5000.]
+[2021-04-29T15:14:48.931 info Netsdk:48184 3100:6560 dhnetsdk.cpp:15900]Leave CLIENT_FindRecord. ret:1.
+[2021-04-29T15:14:48.978 info Netsdk:48184 3100:6560 dhnetsdk.cpp:15992]Enter CLIENT_FindRecordClose. [lFindHandle=-1313085216.]
+[2021-04-29T15:14:49.015 info Netsdk:48184 3100:6560 dhnetsdk.cpp:16007]Leave CLIENT_FindRecordClose. ret:1
+[2021-04-29T15:14:53.031 info Netsdk:48184 3100:11596 dhnetsdk.cpp:15875]Enter CLIENT_FindRecord. [lLoginID=000002F1B1BB9910, pInParam=000002F1B297EDD0, pOutParam=000002F1B297EBF0, waittime=5000.]
+[2021-04-29T15:14:53.077 info Netsdk:48184 3100:11596 dhnetsdk.cpp:15900]Leave CLIENT_FindRecord. ret:1.
+[2021-04-29T15:14:53.093 info Netsdk:48184 3100:11596 dhnetsdk.cpp:15992]Enter CLIENT_FindRecordClose. [lFindHandle=-1313084736.]
+[2021-04-29T15:14:53.135 info Netsdk:48184 3100:11596 dhnetsdk.cpp:16007]Leave CLIENT_FindRecordClose. ret:1
+[2021-04-29T15:15:07.391 info Netsdk:48184 3100:14760 dhnetsdk.cpp:15875]Enter CLIENT_FindRecord. [lLoginID=000002F1B1BB9910, pInParam=000002F1B297E510, pOutParam=000002F1B297E230, waittime=5000.]
+[2021-04-29T15:15:07.436 info Netsdk:48184 3100:14760 dhnetsdk.cpp:15900]Leave CLIENT_FindRecord. ret:1.
+[2021-04-29T15:16:00.713 info Netsdk:48184 3100:14760 dhnetsdk.cpp:15992]Enter CLIENT_FindRecordClose. [lFindHandle=-1313084992.]
+[2021-04-29T15:16:00.750 info Netsdk:48184 3100:14760 dhnetsdk.cpp:16007]Leave CLIENT_FindRecordClose. ret:1
+[2021-04-29T15:23:22.463 info Netsdk:48184 3100:6232 dhnetsdk.cpp:9524]Enter CLIENT_StopLoadPic. lAnalyzerHandle:-1233583360.
+[2021-04-29T15:23:22.463 info Netsdk:48184 3100:6232 dhnetsdk.cpp:9531]Leave CLIENT_StopLoadPic. ret:1.
+[2021-04-29T15:23:31.662 info Netsdk:48184 3100:2116 dhnetsdk.cpp:15875]Enter CLIENT_FindRecord. [lLoginID=000002F1B1BB9910, pInParam=000002F1BEFA5F40, pOutParam=000002F1BEFA5FC0, waittime=5000.]
+[2021-04-29T15:23:31.802 info Netsdk:48184 3100:2116 dhnetsdk.cpp:15900]Leave CLIENT_FindRecord. ret:1.
+[2021-04-29T15:24:25.275 info Netsdk:48184 3100:2116 dhnetsdk.cpp:15992]Enter CLIENT_FindRecordClose. [lFindHandle=-1313085472.]
+[2021-04-29T15:24:25.311 info Netsdk:48184 3100:2116 dhnetsdk.cpp:16007]Leave CLIENT_FindRecordClose. ret:1

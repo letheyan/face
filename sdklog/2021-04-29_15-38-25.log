@@ -1,0 +1,45 @@
+Begin Time:2021-04-29T15:38:25.700
+[2021-04-29T15:38:25.700 info Netsdk:48184 10780:8908 dhnetsdk.cpp:190]Enter CLIENT_SetAutoReconnect:[cbAutoConnect=000001F0D26100D0, dwUser=0000000000000000].
+[2021-04-29T15:38:25.700 info Netsdk:48184 10780:8908 dhnetsdk.cpp:192]Leave CLIENT_SetAutoReconnect.
+[2021-04-29T15:38:25.700 info Netsdk:48184 10780:8908 dhnetsdk.cpp:210]Enter CLIENT_SetConnectTime:[nWaitTime=5000, nTryTimes=1].
+[2021-04-29T15:38:25.700 info Netsdk:48184 10780:8908 dhnetsdk.cpp:223]Leave CLIENT_SetConnectTime.
+[2021-04-29T15:38:25.700 info Netsdk:48184 10780:8908 dhnetsdk.cpp:234]Enter CLIENT_SetNetworkParam:[nWaittime=0, nConnectTime=10000, nConnectTryNum=0, nSubConnectSpaceTime=0, nGetDevInfoTime=0, nConnectBufSize=0, nGetConnInfoTime=3000, nSearchRecordTime=0, nsubDisconnetTime=0, byNetType=0, byPlaybackBufSize=0, bDetectDisconnTime=0, bKeepLifeInterval=0, nPicBufSize=0].
+[2021-04-29T15:38:25.701 info Netsdk:48184 10780:8908 dhnetsdk.cpp:249]Leave CLIENT_SetNetworkParam.
+[2021-04-29T15:38:32.472 info Netsdk:48184 10780:8908 dhnetsdk.cpp:809]Enter CLIENT_LoginWithHighLevelSecurity. pstInParam:000001F0D2C62940, pstOutParam:000001F0D374E250.
+[2021-04-29T15:38:32.472 info Netsdk:48184 10780:8908 dhnetsdk.cpp:825]IP:169.254.238.113, port:37777, SpeCap:0, CapParam:0000000000000000.
+[2021-04-29T15:38:32.633 info Netsdk:48184 10780:8908 dhnetsdk.cpp:871]Leave CLIENT_LoginWithHighLevelSecurity. error:0, login ID:000001F0D2778900.
+[2021-04-29T15:38:37.053 info Netsdk:48184 10780:8908 dhnetsdk.cpp:1105]Enter CLIENT_RealPlayEx. lLoginID:000001F0D2778900. nChannelID:0. rType:0
+[2021-04-29T15:38:37.223 info Netsdk:48184 10780:8908 DevConfigEx.cpp:10179]IN SetupSession PORT=0 and PORT: 37777
+[2021-04-29T15:38:37.472 error Netsdk:48184 10780:8908 RealPlayAndPlayBackUtil.cpp:430]AttachVk fail
+[2021-04-29T15:38:37.488 info Netsdk:48184 10780:8908 dhnetsdk.cpp:1166]Leave CLIENT_RealPlayEx. ret:-764884896
+[2021-04-29T15:38:37.510 info Netsdk:48184 10780:8908 dhnetsdk.cpp:27677]Enter CLIENT_RenderPrivateData. [lPlayHandle=-764884896, bTrue=1.]
+[2021-04-29T15:38:37.543 info Netsdk:48184 10780:8908 dhnetsdk.cpp:27685]Leave CLIENT_RenderPrivateData. ret:1
+[2021-04-29T15:38:48.219 info Netsdk:48184 10780:8908 dhnetsdk.cpp:21869]Enter CLIENT_AttachVideoStatSummary. [lLoginID=000001F0D2778900, pInParam=000001F0D2C0FDD0, pOutParam=000001F0D2856720, nWaitTime=5000.]
+[2021-04-29T15:38:48.247 info Netsdk:48184 10780:8908 dhnetsdk.cpp:21881]Leave CLIENT_AttachVideoStatSummary. ret:0
+[2021-04-29T15:38:48.248 info Netsdk:48184 10780:8908 dhnetsdk.cpp:7250]Enter CLIENT_GetLastError.
+[2021-04-29T15:38:48.248 info Netsdk:48184 10780:8908 dhnetsdk.cpp:7253]Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-04-29T15:38:48.248 info Netsdk:48184 10780:8908 dhnetsdk.cpp:7250]Enter CLIENT_GetLastError.
+[2021-04-29T15:38:48.248 info Netsdk:48184 10780:8908 dhnetsdk.cpp:7253]Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-04-29T15:38:48.265 info Netsdk:48184 10780:8908 dhnetsdk.cpp:7250]Enter CLIENT_GetLastError.
+[2021-04-29T15:38:48.265 info Netsdk:48184 10780:8908 dhnetsdk.cpp:7253]Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-04-29T15:38:51.086 info Netsdk:48184 10780:8908 dhnetsdk.cpp:21869]Enter CLIENT_AttachVideoStatSummary. [lLoginID=000001F0D2778900, pInParam=000001F0D5A7BE00, pOutParam=000001F0D2856790, nWaitTime=5000.]
+[2021-04-29T15:38:51.094 info Netsdk:48184 10780:8908 dhnetsdk.cpp:21881]Leave CLIENT_AttachVideoStatSummary. ret:0
+[2021-04-29T15:38:51.094 info Netsdk:48184 10780:8908 dhnetsdk.cpp:7250]Enter CLIENT_GetLastError.
+[2021-04-29T15:38:51.095 info Netsdk:48184 10780:8908 dhnetsdk.cpp:7253]Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-04-29T15:38:51.095 info Netsdk:48184 10780:8908 dhnetsdk.cpp:7250]Enter CLIENT_GetLastError.
+[2021-04-29T15:38:51.095 info Netsdk:48184 10780:8908 dhnetsdk.cpp:7253]Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-04-29T15:38:51.095 info Netsdk:48184 10780:8908 dhnetsdk.cpp:7250]Enter CLIENT_GetLastError.
+[2021-04-29T15:38:51.095 info Netsdk:48184 10780:8908 dhnetsdk.cpp:7253]Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-04-29T15:39:01.182 info Netsdk:48184 10780:8908 dhnetsdk.cpp:21869]Enter CLIENT_AttachVideoStatSummary. [lLoginID=000001F0D2778900, pInParam=000001F0D30064C0, pOutParam=000001F0D2856890, nWaitTime=5000.]
+[2021-04-29T15:39:01.210 info Netsdk:48184 10780:8908 dhnetsdk.cpp:21881]Leave CLIENT_AttachVideoStatSummary. ret:0
+[2021-04-29T15:39:01.210 info Netsdk:48184 10780:8908 dhnetsdk.cpp:7250]Enter CLIENT_GetLastError.
+[2021-04-29T15:39:01.210 info Netsdk:48184 10780:8908 dhnetsdk.cpp:7253]Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-04-29T15:39:01.210 info Netsdk:48184 10780:8908 dhnetsdk.cpp:7250]Enter CLIENT_GetLastError.
+[2021-04-29T15:39:01.210 info Netsdk:48184 10780:8908 dhnetsdk.cpp:7253]Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-04-29T15:39:01.210 info Netsdk:48184 10780:8908 dhnetsdk.cpp:7250]Enter CLIENT_GetLastError.
+[2021-04-29T15:39:01.210 info Netsdk:48184 10780:8908 dhnetsdk.cpp:7253]Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-04-29T15:39:03.087 info Netsdk:48184 10780:8908 dhnetsdk.cpp:1780]Enter CLIENT_StopRealPlayEx. lRealHandle:-764884896.
+[2021-04-29T15:39:03.091 info Netsdk:48184 10780:8908 dhnetsdk.cpp:1794]Leave CLIENT_StopRealPlayEx. ret:1
+[2021-04-29T15:39:03.091 info Netsdk:48184 10780:8908 dhnetsdk.cpp:892]Enter CLIENT_Logout. lLoginID:000001F0D2778900.
+[2021-04-29T15:39:03.091 error Netsdk:48184 10780:8908 TPTCPClient.cpp:533]Device is not online, ip:169.254.238.113
+[2021-04-29T15:39:03.091 info Netsdk:48184 10780:8908 dhnetsdk.cpp:914]Leave CLIENT_Logout. ret:1

@@ -1,0 +1,17 @@
+Begin Time:2021-04-25T10:57:22.427
+[2021-04-25T10:57:22.427 info Netsdk:48184 7688:7448 AVNetSDKMgr.cpp:378]Load avnetsdk library dynamically
+[2021-04-25T10:57:22.431 info Netsdk:48184 7688:7448 AVNetSDKMgr.cpp:402]avnetsdk module handle: 0000020512410000
+
+[2021-04-25T10:57:22.432 info Netsdk:48184 7688:7448 AVNetSDKMgr.cpp:734]Load configsdk dynamically
+[2021-04-25T10:57:22.435 info Netsdk:48184 7688:7448 dhnetsdk.cpp:190]Enter CLIENT_SetAutoReconnect:[cbAutoConnect=000002050F590050, dwUser=0000000000000000].
+[2021-04-25T10:57:22.435 info Netsdk:48184 7688:7448 dhnetsdk.cpp:192]Leave CLIENT_SetAutoReconnect.
+[2021-04-25T10:57:22.435 info Netsdk:48184 7688:7448 dhnetsdk.cpp:210]Enter CLIENT_SetConnectTime:[nWaitTime=5000, nTryTimes=1].
+[2021-04-25T10:57:22.435 info Netsdk:48184 7688:7448 dhnetsdk.cpp:223]Leave CLIENT_SetConnectTime.
+[2021-04-25T10:57:22.435 info Netsdk:48184 7688:7448 dhnetsdk.cpp:234]Enter CLIENT_SetNetworkParam:[nWaittime=0, nConnectTime=10000, nConnectTryNum=0, nSubConnectSpaceTime=0, nGetDevInfoTime=0, nConnectBufSize=0, nGetConnInfoTime=3000, nSearchRecordTime=0, nsubDisconnetTime=0, byNetType=0, byPlaybackBufSize=0, bDetectDisconnTime=0, bKeepLifeInterval=0, nPicBufSize=0].
+[2021-04-25T10:57:22.435 info Netsdk:48184 7688:7448 dhnetsdk.cpp:249]Leave CLIENT_SetNetworkParam.
+[2021-04-25T10:57:24.550 info Netsdk:48184 7688:7448 dhnetsdk.cpp:809]Enter CLIENT_LoginWithHighLevelSecurity. pstInParam:000002051104F470, pstOutParam:00000205117F5D90.
+[2021-04-25T10:57:24.550 info Netsdk:48184 7688:7448 dhnetsdk.cpp:825]IP:169.254.238.113, port:37777, SpeCap:0, CapParam:0000000000000000.
+[2021-04-25T10:57:24.687 info Netsdk:48184 7688:7448 dhnetsdk.cpp:871]Leave CLIENT_LoginWithHighLevelSecurity. error:0, login ID:0000020510A69910.
+[2021-04-25T10:57:30.854 info Netsdk:48184 7688:7448 dhnetsdk.cpp:892]Enter CLIENT_Logout. lLoginID:0000020510A69910.
+[2021-04-25T10:57:30.854 error Netsdk:48184 7688:7448 TPTCPClient.cpp:533]Device is not online, ip:169.254.238.113
+[2021-04-25T10:57:30.854 info Netsdk:48184 7688:7448 dhnetsdk.cpp:914]Leave CLIENT_Logout. ret:1
